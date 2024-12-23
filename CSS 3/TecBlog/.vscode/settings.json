@@ -1,0 +1,33 @@
+{
+    "workbench.colorTheme": "Default Dark Modern", // tema de cores
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.75,
+    "editor.tabSize": 2,
+    "workbench.startupEditor": "newUntitledFile", // ao iniciar o VS Code, inicia um arquivo vazio
+    "editor.wordWrap": "on", // reposiciona código muito grande na mesma linha
+    "editor.minimap.renderCharacters": false, // renderiza caracteres no minimapa
+    "telemetry.telemetryLevel": "off", // envia relatórios a Microsoft
+    "security.workspace.trust.untrustedFiles": "open", // retira mensagem de segurança ao abrir arquivo novo
+    "breadcrumbs.filePath": "off", // endereço do elemento no código
+    "outline.icons": false, // ícones no endereço do elemento
+    "liveServer.settings.donotShowInfoMsg": true, // Não mostrar avisos do Liveserver
+    "liveServer.settings.donotVerifyTags": true, // Não mostrar avisos do Liveserver
+    "editor.formatOnSave": true, // Formata o documento toda vez que salvar
+    "html.format.wrapAttributes": "auto",
+    "html.format.wrapLineLength": 0, // Não quebra linha de código muito grande de modo forçado
+    "html.autoClosingTags": false, // Não tentar fechar automaticamente tags com >
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // O editor padrão será o Prettier. Para HTML será VSCode
+    "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.bracketPairColorization.enabled": false,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": true,//retirar ou ativa o mini mapa
+    "files.autoSave": "afterDelay",//salvar apos um delay
+    "files.autoSaveDelay": 1,
+    "backgroundPhiColors.activeScope": "window", //tempo de delay
+    "backgroundPhiColors.indentMode": "light",
+    "backgroundPhiColors.lineEnabled": false,
+    "backgroundPhiColors.tokenActiveAlpha": 0
+}

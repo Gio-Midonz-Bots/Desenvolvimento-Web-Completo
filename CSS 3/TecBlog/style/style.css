@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+:root{
+    --color-primary:#F7B600;
+    --color-secodary:#4E4E4E;
+    --color-black:#000;
+    --color-white:#fff;
+
+}
+
+/* header */
+body{
+    background-color: #E6E6E6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--color-primary);
+}
+
+header h1{
+ margin: 20px;
+ color: var(--color-secodary);   
+ font-size:2.3rem ;
+ 
+}
+
+header span{
+    color: var(--color-white);
+}
+header a{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--color-white);
+    
+}
+
+header a:hover{
+    border: 1px solid var(--color-white);
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+ 
+main{
+    width:920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.Centro{
+    width: 660px;
+    float: left;
+}
+
+.Lateral{
+    width: 200px;
+    float: right;
+}
+
+.postagem{
+    background-color: var(--color-white);
+    padding: 20px;
+    margin: 20px;
+}
+section img{
+    margin-top: 5px;
+    max-width: 100%;
+    
+}
+.postagem h2{
+    color:var(--color-primary);
+}
+.postagem p{
+    margin: 5px;
+}
+.postagem a{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+.postagem a:hover{
+    text-decoration: underline;
+}
+h3{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+   font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.postagem-recentes{
+    background-color: var(--color-white);
+    padding: 5px;
+    margin-top: 20px;
+}
+.titulo-lateral{
+    background-color: #CCCCCC;
+    font-size: 18px;
+    max-width: 100%;
+    color: #565656;
+    padding: 5px;
+
+}
+.postagem-recentes p{ 
+    font-size: 15px;
+    margin: 5px;
+}
+.postagem-recentes a{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.postagem-recentes a:hover{
+    text-decoration: underline;
+}
