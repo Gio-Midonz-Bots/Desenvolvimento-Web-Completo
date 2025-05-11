@@ -59,7 +59,7 @@ main{
     margin-top: 50px;
     gap: 20px;
 }
-h1{
+.h1-hero{
     font-size: 54px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -71,7 +71,7 @@ img{
     gap: 10px;
 }
 
-p{
+.p-hero{
     margin-top:48px ;
     text-align: justify;
     font-size: 16px;
@@ -108,4 +108,50 @@ form{
 #btn-action:hover{
    transform: scale(1.2);
    transition: transform 0.3s ease;
+}
+
+/* section SERVIÇOS */
+
+section{
+    margin-top: 150px;
+    position: relative;
+}
+
+#h1-regular{
+    font-family: "Gilda Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 46px;
+    padding-left: 205px;
+    margin-bottom: 22px;
+    
+}
+
+#span-regular{
+    color:#B6FFA9 ;
+}
+
+.descricao{
+   display: flex;
+    flex-direction: row;
+    
+
+}
+.enfeite{
+   width: 716px;
+   height: auto;
+   z-index: 0;
+    position:absolute;
+    top: 10px;
+    left: 0;
+}
+
+.sobre-servicos{
+    background-color: #B6FFA9; /* fundo verde claro */
+    color: #1E1E1E;
+    padding: 40px;
+    border-radius: 100px;
+    text-align: justify;
+    z-index: 1;
+    position: relative;
 }
