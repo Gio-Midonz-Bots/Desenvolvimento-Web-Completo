@@ -13,7 +13,7 @@ body{
     font-family: "Gilda Display", serif;
     font-weight: 400;
     font-style: normal;
-    max-width: 1240px;
+    max-width: 1040px;
     margin: 0 auto;
     padding: 15px;
 }
@@ -131,27 +131,29 @@ section{
     color:#B6FFA9 ;
 }
 
-.descricao{
-   display: flex;
-    flex-direction: row;
-    
+@media screen and (max-width:760px){
+    body{
+        text-align: center;
 
-}
-.enfeite{
-   width: 716px;
-   height: auto;
-   z-index: 0;
-    position:absolute;
-    top: 10px;
-    left: 0;
-}
+    }
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
 
-.sobre-servicos{
-    background-color: #B6FFA9; /* fundo verde claro */
-    color: #1E1E1E;
-    padding: 40px;
-    border-radius: 100px;
-    text-align: justify;
-    z-index: 1;
-    position: relative;
+    h1{
+        font-size: 18px;
+    }
+
+    form{
+        margin:0 auto;
+        width: 100%;
+    }
+
+    input{
+        align-items: center;
+        
+    }
 }
