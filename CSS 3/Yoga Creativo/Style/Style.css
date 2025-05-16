@@ -18,6 +18,12 @@ body{
    
 }
 
+h2{
+    font-size: 40px;
+ 
+    
+}
+
 /* Header */
 header{
     display: flex;
@@ -165,15 +171,14 @@ form{
     display: flex;
     flex-direction: column;
 }
-.titulo-menu{
+#title-Servico{
    
     text-align: right;
     width: 86%;
     padding: 20px;
 }
 .escolhas-servico{
-    
-    margin:43px ;
+    margin:43px;
     padding: 20px;
     gap:80px ;
     display: flex;
@@ -187,11 +192,45 @@ form{
    
     width:300px ;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin-top: 29px;
 }
 
 
+/* Sobre */
+.sobre{
+    margin-top: 90px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+    justify-content: center;
+}
+.topico-sobre{
+    display: flex;
+    flex-direction: column;
+    padding:60px;
+}
+#descricao-sobre{
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 56px;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+.comentarios{
+    width: 505px;
+    height: 266px;
+    border: 2px solid #3A7C2E;
+    border-radius: 15px;
+    padding: 60px;
+    /* margin: 35px; */
+
+}
 @media screen and (max-width:760px){
     body {
         text-align: center;
@@ -208,18 +247,11 @@ form{
         display: none;
     }
    
-    .titulo-menu h2{
-        text-align:right;
-        
-        border: 3px solid rebeccapurple;
-    }
     .NossoServico{
-        border: 3px solid blue;
         margin-top: 70px;
     }
     
     .escolhas-servico{
-        border: 1px solid salmon;
         display: flex;
         flex-direction: column;
 
