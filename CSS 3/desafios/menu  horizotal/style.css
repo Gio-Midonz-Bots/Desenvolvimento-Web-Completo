@@ -12,21 +12,19 @@ h1{
 ul{
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    gap: 6px;    
-    text-align: center;
-    justify-content: center;
+    justify-content: space-around;
+    line-height:42px;
 }
 li{
-    border: 1px solid blue;
-    background-color: black;
-    width: 120px;
-    height: 28px;
-    border-radius: 4px;
+    background-color:#199395;
+    width: 155px;
+    text-align: center;
+    border: 1px solid gray;
 }
 a{
     text-decoration: none;
     color: white;
+    
 }
 li:hover{
     background-color: gray;
