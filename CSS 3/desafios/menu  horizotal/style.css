@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+  display: block;
+  text-align: center;
+  padding: 1.5rem;
+  margin-bottom: 16px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;    
+    text-align: center;
+    justify-content: center;
+}
+li{
+    border: 1px solid blue;
+    background-color: black;
+    width: 120px;
+    height: 28px;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    background-color: gray;
+    color: blanchedalmond;
+}
+
+
