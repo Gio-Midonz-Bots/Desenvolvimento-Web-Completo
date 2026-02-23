@@ -80,14 +80,21 @@ body.home #nav a#home{
 .primario{
     width:270px ;
     float: left;
-    background: blue;
     margin: 0 0 20px 195px;
 }
-#tres-colunas .primario{
-    width:270px ;
-    float: left;
-    background: blue;
-    margin: 0 0 20px 195px;
+img{
+    border: 2px solid #dfdfdf;
+}
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    
+}
+.destaque-text h3{
+    background-color: #de003e;
+    color: #fff;
 }
 #duas-colunas .primario{
     width:555px ;
@@ -102,7 +109,6 @@ body.home #nav a#home{
 .secundario{
     width:270px ;
     float: left;
-    background: yellow;
     margin: 0 0 20px 15px;
 }
 
